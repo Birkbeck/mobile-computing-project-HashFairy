@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">Recipe Companion</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">My Recipe Book</string>
+    <string name="welcome_subtitle">Organise and manage your\nfavourite recipes</string>
+    <string name="btn_get_started">GET STARTED</string>
+
+    <!-- Dashboard -->
+    <string name="my_recipes">My Recipes</string>
+    <string name="add_recipe">Add Recipe</string>
+
+    <!-- Categories -->
+    <string name="category_all">All</string>
+    <string name="category_breakfast">Breakfast</string>
+    <string name="category_brunch">Brunch</string>
+    <string name="category_lunch">Lunch</string>
+    <string name="category_dinner">Dinner</string>
+    <string name="category_desserts">Desserts</string>
+    <string name="category_other">Other</string>
+
+    <!-- Form Labels -->
+    <string name="recipe_title_hint">Recipe Title *</string>
+    <string name="category_hint">Category *</string>
+    <string name="ingredients_hint">Ingredients</string>
+    <string name="instructions_hint">Instructions</string>
+
+    <!-- Buttons -->
+    <string name="btn_save_recipe">SAVE RECIPE</string>
+    <string name="btn_update_recipe">UPDATE RECIPE</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_delete">DELETE</string>
+
+    <!-- Titles -->
+    <string name="add_new_recipe">Add New Recipe</string>
+    <string name="edit_recipe">Edit Recipe</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_app_logo">Culinary Companion Logo</string>
+    <string name="cd_menu">Menu</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_recipe_image">Recipe Image</string>
+    <string name="cd_recipe_options">Recipe Options</string>
+    <string name="cd_delete_recipe">Delete Recipe</string>
+
+    <!-- Sample Data -->
+    <string name="sample_recipe_title">Caesar Salad</string>
+    <string name="sample_category">Lunch</string>
+    <string name="sample_ingredients">1 head romaine lettuce, washed and chopped (about 6–7 cups)\n½ cup croutons (store-bought or homemade)\n¼ cup grated Parmesan cheese</string>
+    <string name="sample_instructions">In a small bowl, whisk together mayonnaise, lemon juice, Dijon mustard, minced garlic, grated Parmesan, salt, and pepper until smooth.\n\nIn a large bowl, combine chopped romaine and croutons. Drizzle the dressing over the greens; toss gently until coated.\n\nTop with extra shaved Parmesan or cracked black pepper. Add sliced grilled chicken if you want a heartier lunch. Serve immediately.</string>
+    <string name="organise_and_manage_your_nfavourite_recipes">Organise and manage your\nfavourite recipes</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="my_recipe_book">My Recipe Book</string>
+    <string name="culinary_companion_logo">Culinary Companion Logo</string>
+    <string name="back">Back</string>
+    <string name="category">Category</string>
+
+</resources>

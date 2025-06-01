@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <!-- Main content container centered -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center">
+
+        <!-- App Logo/Icon -->
+        <ImageView
+            android:id="@+id/app_logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="@string/culinary_companion_logo"
+            android:src="@drawable/cooking_pot_icon"
+            android:visibility="visible" />
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_recipe_book"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:gravity="center" />
+
+        <!-- App Subtitle -->
+        <TextView
+            android:id="@+id/app_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/organise_and_manage_your_nfavourite_recipes"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="48dp"
+            android:gravity="center"
+            android:alpha="0.9" />
+
+        <!-- Get Started Button -->
+        <Button
+            android:id="@+id/btn_get_started"
+            android:layout_width="200dp"
+            android:layout_height="56dp"
+            android:background="#FFF"
+            android:elevation="4dp"
+            android:text="@string/get_started"
+            android:textColor= "#F84A4A"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

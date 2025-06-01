@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Color Scheme based on your design -->
+    <color name="black">#000000</color>
+    <color name="light_pink">#FDDBDB</color>
+    <color name="medium_pink">#C29292</color>
+    <color name="soft_pink">#F3CACA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="warm_pink">#FFC0C0</color>
+
+    <!-- Additional colors for better UX -->
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#999999</color>
+
+    <!-- Status colors -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FF9800</color>
+
+    <!-- Material Design Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+</resources>
