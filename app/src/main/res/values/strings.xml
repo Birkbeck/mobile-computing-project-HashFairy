@@ -46,22 +46,13 @@
     <string name="cd_recipe_options">Recipe Options</string>
     <string name="cd_delete_recipe">Delete Recipe</string>
 
-    <!-- Sample Data -->
-    <string name="sample_recipe_title">Caesar Salad</string>
-    <string name="sample_category">Lunch</string>
-    <string name="sample_ingredients">1 head romaine lettuce, washed and chopped (about 6–7 cups)\n½ cup croutons (store-bought or homemade)\n¼ cup grated Parmesan cheese</string>
-    <string name="sample_instructions">In a small bowl, whisk together mayonnaise, lemon juice, Dijon mustard, minced garlic, grated Parmesan, salt, and pepper until smooth.\n\nIn a large bowl, combine chopped romaine and croutons. Drizzle the dressing over the greens; toss gently until coated.\n\nTop with extra shaved Parmesan or cracked black pepper. Add sliced grilled chicken if you want a heartier lunch. Serve immediately.</string>
+    <string name="my_recipe_book">My Recipe Book</string>
     <string name="organise_and_manage_your_nfavourite_recipes">Organise and manage your\nfavourite recipes</string>
     <string name="get_started">GET STARTED</string>
-    <string name="my_recipe_book">My Recipe Book</string>
     <string name="culinary_companion_logo">Culinary Companion Logo</string>
-    <string name="back">Back</string>
-    <string name="category">Category</string>
-    <string name="Edit_foodRecipe">Edit Recipe</string>
-    <string name="recipe_title">Recipe Title*</string>
-    <string name="caesar_salad">Caesar Salad</string>
+    <string name="ingredient">Ingredients</string>
     <string name="ingredients">Ingredients</string>
-    <string name="_1_head_romaine_lettuce_washed_and_chopped_about_6_7_cups_n_cup_croutons_store_bought_or_homemade_n_cup_grated_parmesan_cheese">1 head romaine lettuce, washed and chopped (about 6–7 cups)\n½ cup croutons (store-bought or homemade)\n¼ cup grated Parmesan cheese</string>
+    <string name="recipe_title">Recipe Title*</string>
+    <string name="Edit_foodRecipe">Edit Recipe</string>
     <string name="cancel">Cancel</string>
-
 </resources>

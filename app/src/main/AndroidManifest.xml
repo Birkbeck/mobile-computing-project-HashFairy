@@ -11,36 +11,37 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:theme= "@style/Theme.Recipecompanion"
         tools:targetApi="31">
 
-        <!-- Welcome Activity - Main launcher activity -->
         <activity
             android:name=".WelcomeActivity"
-            android:exported="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- Recipe Dashboard Activity - Main recipes list -->
         <activity
             android:name=".RecipeDashboardActivity"
-            android:exported="false"
-            android:parentActivityName=".WelcomeActivity" />
+            android:exported="false" />
 
-        <!-- Add Recipe Activity - Form for creating new recipes -->
         <activity
             android:name=".AddRecipeActivity"
-            android:exported="false"
-            android:parentActivityName=".RecipeDashboardActivity" />
+            android:exported="false" />
 
-        <!-- Edit Recipe Activity - Form for editing existing recipes -->
         <activity
             android:name=".EditRecipeActivity"
-            android:exported="false"
-            android:parentActivityName=".RecipeDashboardActivity" />
+            android:exported="false" />
+
+        <activity
+            android:name=".CategoryFilterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RecipeDetailActivity"
+            android:exported="false" />
 
     </application>
 
