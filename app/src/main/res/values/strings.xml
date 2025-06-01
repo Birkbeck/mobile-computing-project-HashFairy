@@ -31,8 +31,8 @@
     <!-- Buttons -->
     <string name="btn_save_recipe">SAVE RECIPE</string>
     <string name="btn_update_recipe">UPDATE RECIPE</string>
-    <string name="btn_cancel">CANCEL</string>
-    <string name="btn_delete">DELETE</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
 
     <!-- Titles -->
     <string name="add_new_recipe">Add New Recipe</string>
