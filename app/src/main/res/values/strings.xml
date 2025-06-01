@@ -57,5 +57,11 @@
     <string name="culinary_companion_logo">Culinary Companion Logo</string>
     <string name="back">Back</string>
     <string name="category">Category</string>
+    <string name="Edit_foodRecipe">Edit Recipe</string>
+    <string name="recipe_title">Recipe Title*</string>
+    <string name="caesar_salad">Caesar Salad</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="_1_head_romaine_lettuce_washed_and_chopped_about_6_7_cups_n_cup_croutons_store_bought_or_homemade_n_cup_grated_parmesan_cheese">1 head romaine lettuce, washed and chopped (about 6–7 cups)\n½ cup croutons (store-bought or homemade)\n¼ cup grated Parmesan cheese</string>
+    <string name="cancel">Cancel</string>
 
 </resources>

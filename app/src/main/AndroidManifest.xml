@@ -11,14 +11,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CulinaryCompanion"
         tools:targetApi="31">
 
         <!-- Welcome Activity - Main launcher activity -->
         <activity
             android:name=".WelcomeActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -29,21 +28,18 @@
         <activity
             android:name=".RecipeDashboardActivity"
             android:exported="false"
-            android:screenOrientation="portrait"
             android:parentActivityName=".WelcomeActivity" />
 
         <!-- Add Recipe Activity - Form for creating new recipes -->
         <activity
             android:name=".AddRecipeActivity"
             android:exported="false"
-            android:screenOrientation="portrait"
             android:parentActivityName=".RecipeDashboardActivity" />
 
         <!-- Edit Recipe Activity - Form for editing existing recipes -->
         <activity
             android:name=".EditRecipeActivity"
             android:exported="false"
-            android:screenOrientation="portrait"
             android:parentActivityName=".RecipeDashboardActivity" />
 
     </application>
