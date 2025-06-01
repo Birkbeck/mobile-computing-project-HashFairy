@@ -61,7 +61,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="bottom"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:padding="16dp">
 
@@ -70,7 +70,7 @@
                             android:layout_height="wrap_content"
                             android:text="Caesar Salad"
                             android:textColor="#000000"
-                            android:textSize="18sp"
+                            android:textSize="16sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -79,7 +79,8 @@
                             android:layout_marginTop="4dp"
                             android:text="Lunch"
                             android:textColor="#C29292"
-                            android:textSize="14sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -97,7 +98,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="bottom"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:padding="16dp">
 
@@ -115,7 +116,8 @@
                             android:layout_marginTop="4dp"
                             android:text="Breakfast"
                             android:textColor="#C29292"
-                            android:textSize="14sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -142,7 +144,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="bottom"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:padding="16dp">
 
@@ -160,7 +162,8 @@
                             android:layout_marginTop="4dp"
                             android:text="Desserts"
                             android:textColor="#C29292"
-                            android:textSize="14sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -178,7 +181,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="bottom"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:padding="16dp">
 
@@ -196,7 +199,8 @@
                             android:layout_marginTop="4dp"
                             android:text="Dinner"
                             android:textColor="#C29292"
-                            android:textSize="14sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -223,7 +227,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="bottom"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:padding="16dp">
 
@@ -241,7 +245,8 @@
                             android:layout_marginTop="4dp"
                             android:text="Dinner"
                             android:textColor="#C29292"
-                            android:textSize="14sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -259,7 +264,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="bottom"
+                        android:gravity="center"
                         android:orientation="vertical"
                         android:padding="16dp">
 
@@ -277,7 +282,9 @@
                             android:layout_marginTop="4dp"
                             android:text="Brunch"
                             android:textColor="#C29292"
-                            android:textSize="14sp" />
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -287,18 +294,6 @@
         </LinearLayout>
 
         <!-- Floating Action Button -->
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab_add_recipe"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="24dp"
-            android:layout_marginBottom="24dp"
-            app:backgroundTint="#C29292"
-            app:tint="#FFFFFF"
-            app:elevation="8dp"
-            android:contentDescription="Add Recipe" />
 
     </RelativeLayout>
 
