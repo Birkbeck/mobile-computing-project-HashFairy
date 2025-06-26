@@ -39,7 +39,7 @@ class CategoryFilterActivity : AppCompatActivity() {
     }
 
     private fun setupCategoryCheckboxes() {
-        val categories = arrayOf("Breakfast", "Lunch", "Dinner", "Dessert", "Snack")
+        val categories = arrayOf("Breakfast", "Brunch", "Lunch", "Dinner", "Dessert", "Other")
 
         for (category in categories) {
             val checkBox = CheckBox(this)

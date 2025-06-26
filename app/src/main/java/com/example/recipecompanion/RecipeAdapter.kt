@@ -14,7 +14,7 @@ class RecipeAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecipeViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(android.R.layout.simple_list_item_2, parent, false)
+            .inflate(R.layout.new_item_recipe_card, parent, false)
         return RecipeViewHolder(view)
     }
 
@@ -24,11 +24,11 @@ class RecipeAdapter(
     }
 
     inner class RecipeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val titleText: TextView = itemView.findViewById(android.R.id.text1)
-        private val categoryText: TextView = itemView.findViewById(android.R.id.text2)
+        private val nameText: TextView = itemView.findViewById(R.id.text_recipe_name)
+        private val categoryText: TextView = itemView.findViewById(R.id.text_recipe_category)
 
         fun bind(recipe: Recipe) {
-            titleText.text = recipe.name
+            nameText.text = recipe.name
             categoryText.text = recipe.category
 
             itemView.setOnClickListener {

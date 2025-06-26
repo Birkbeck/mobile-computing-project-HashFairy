@@ -26,7 +26,7 @@ class EditRecipeActivity : AppCompatActivity() {
     }
 
     private fun setupSpinner() {
-        val categories = arrayOf("Breakfast", "Lunch", "Dinner", "Dessert", "Snack")
+        val categories = arrayOf("Breakfast", "Brunch", "Lunch", "Dinner", "Dessert", "Other")
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, categories)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         binding.spinnerCategory.adapter = adapter
@@ -47,7 +47,7 @@ class EditRecipeActivity : AppCompatActivity() {
         binding.editInstructions.setText(recipe.instructions)
 
         // Set spinner selection
-        val categories = arrayOf("Breakfast", "Lunch", "Dinner", "Dessert", "Snack")
+        val categories = arrayOf("Breakfast", "Brunch", "Lunch", "Dinner", "Dessert", "Other")
         val position = categories.indexOf(recipe.category)
         if (position >= 0) {
             binding.spinnerCategory.setSelection(position)

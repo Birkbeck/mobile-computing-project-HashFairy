@@ -17,16 +17,12 @@ class RecipeDashboardActivity : AppCompatActivity() {
         binding = ActivityRecipeDashboardBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //setupToolbar()
         setupRecyclerView()
         setupObservers()
         setupClickListeners()
     }
 
-    //private fun setupToolbar() {
-        //setSupportActionBar(binding.toolbar)
-        //supportActionBar?.title = "My Recipes"
-    //}
+
 
     private fun setupRecyclerView() {
         adapter = RecipeAdapter { recipe ->
@@ -45,7 +41,6 @@ class RecipeDashboardActivity : AppCompatActivity() {
     private fun setupObservers() {
         viewModel.allRecipes.observe(this) { recipes ->
             adapter.submitList(recipes)
-            updateRecipeCount(recipes.size)
             toggleEmptyState(recipes.isEmpty())
         }
     }
@@ -58,9 +53,7 @@ class RecipeDashboardActivity : AppCompatActivity() {
 
     }
 
-    private fun updateRecipeCount(count: Int) {
-        binding.textRecipeCount.text = "$count recipes"
-    }
+
 
     private fun toggleEmptyState(isEmpty: Boolean) {
         if (isEmpty) {
