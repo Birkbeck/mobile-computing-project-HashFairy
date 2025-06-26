@@ -94,7 +94,7 @@
             android:maxLines="2"
             android:ellipsize="end"
             android:lineSpacingMultiplier="1.2"
-            tools:text="1 head romaine lettuce, croutons, parmesan cheese..." />
+            />
 
     </LinearLayout>
 
