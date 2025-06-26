@@ -6,19 +6,40 @@
     android:background="#FFFFFF">
 
     <!-- App Bar Layout -->
-    <com.google.android.material.appbar.AppBarLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        android:background="#FFC0C0"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#FDDBDB"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            />
 
-    </com.google.android.material.appbar.AppBarLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_weight="1"
+            android:text="My Recipe"
+            android:gravity="start"
+            android:textColor="#FBF9F9"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            app:srcCompat="@drawable/filter_list_24px"
+            android:contentDescription="@string/filter" />
+
+    </LinearLayout>
 
     <!-- Main Content -->
     <LinearLayout
@@ -27,15 +48,15 @@
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <!-- Recipe Count -->
-        <TextView
-            android:id="@+id/textRecipeCount"
-            android:layout_width="match_parent"
+
+        <ImageView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="0 recipes"
-            android:textColor="#666666"
-            android:textSize="14sp" />
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp"
+            app:srcCompat="@drawable/more_horiz_24px" />
 
         <!-- Recipes RecyclerView -->
         <androidx.recyclerview.widget.RecyclerView
@@ -45,6 +66,9 @@
             android:layout_weight="1"
             android:padding="8dp"
             android:clipToPadding="false" />
+
+
+
 
         <!-- Empty State Layout -->
         <LinearLayout
@@ -62,22 +86,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="No recipes yet"
-                android:textSize="18sp"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 android:textColor="#333333"
                 android:layout_marginBottom="8dp" />
-
             <TextView
                 android:id="@+id/emptyStateMessage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tap the + button to add your first recipe"
-                android:textSize="14sp"
+                android:text="@string/tap_the_button_to_add_your_first_recipe"
+                android:textSize="20sp"
                 android:textColor="#666666"
                 android:gravity="center" />
 
         </LinearLayout>
-
     </LinearLayout>
 
     <!-- Floating Action Button -->
@@ -87,8 +109,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
-        android:src="@drawable/add_circle_outline_pink"
-        app:tint="#FFFFFF"
-        app:backgroundTint="#F84A4A" />
+        app:srcCompat="@drawable/add_circle_outline_pink" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

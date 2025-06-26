@@ -57,7 +57,7 @@
             android:background="@drawable/rounded_button_background"
             android:elevation="4dp"
             android:text="@string/get_started"
-            android:textColor="#F84A4A"
+            android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:gravity="center"
             android:textStyle="bold" />
