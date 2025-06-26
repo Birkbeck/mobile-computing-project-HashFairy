@@ -55,4 +55,7 @@
     <string name="recipe_title">Recipe Title*</string>
     <string name="Edit_foodRecipe">Edit Recipe</string>
     <string name="cancel">Cancel</string>
+    <string name="tap_the_button_to_add_your_first_recipe">Tap the + button to add your first recipe</string>
+    <string name="filter" />
+    <string name="update_recipe">Update Recipe</string>
 </resources>
