@@ -1,4 +1,6 @@
+import org.gradle.kotlin.dsl.androidTestImplementation
 import org.gradle.kotlin.dsl.implementation
+import org.gradle.kotlin.dsl.testImplementation
 
 plugins {
     alias(libs.plugins.android.application)
@@ -9,8 +11,8 @@ plugins {
 }
 
 android {
-    namespace = "com.example.recipecompanion"
-    compileSdk = 35
+    namespace = "com.example.culinarycompanion"
+    compileSdk = 36
 
     buildFeatures{
         viewBinding = true
@@ -18,7 +20,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.recipecompanion"
+        applicationId = "com.example.culinarycompanion"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -54,9 +56,10 @@ dependencies {
     implementation(libs.androidx.activity)
 
     // Room Database
-    //kapt(libs.androidx.room.compiler)
-    implementation("androidx.room:room-runtime:2.7.2")
-    implementation("androidx.room:room-ktx:2.7.2")
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.junit.ktx)
+    implementation(libs.androidx.runner)
 
     kapt("androidx.room:room-compiler:2.7.2")
 
@@ -73,4 +76,30 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    // Mockito for mocking dependencies
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.inline)
+    testImplementation(libs.androidx.core)
+
+    androidTestImplementation(libs.androidx.room.room.testing)
+    testImplementation(libs.androidx.room.room.testing)
+
+    // Architecture testing components
+    testImplementation(libs.androidx.core.testing)
+    androidTestImplementation(libs.androidx.core.testing)
+
+    // Coroutines testing
+    testImplementation(libs.kotlinx.coroutines.test)
+    androidTestImplementation(libs.kotlinx.coroutines.test)
+
+    // Enhanced Espresso testing
+    androidTestImplementation(libs.androidx.espresso.contrib)
+    androidTestImplementation(libs.androidx.rules)
+
+
+    testImplementation ("android.arch.core:core-testing:1.1.1")
+    testImplementation(kotlin("test"))
+
 }
