@@ -41,7 +41,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Recipe Name"
+                    android:text="@string/recipe_name"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="#231F20"
@@ -54,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/category_badge_background"
-                    android:text="Category"
+                    android:text="@string/category"
                     android:textSize="12sp"
                     android:textColor="#FFFFFF"
                     android:paddingHorizontal="12dp"
@@ -69,11 +69,15 @@
 
         <!-- Arrow icon -->
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:id="@+id/arrow_navigate"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_gravity="center_vertical"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp"
+            android:contentDescription="@string/arrow_to_navigate_to_recipe_detail_layout"
             android:src="@drawable/arrow_forward_24px"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
             app:tint="#020202" />
 
     </LinearLayout>
