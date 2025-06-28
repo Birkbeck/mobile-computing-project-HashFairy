@@ -58,4 +58,19 @@
     <string name="tap_the_button_to_add_your_first_recipe">Tap the + button to add your first recipe</string>
     <string name="filter" />
     <string name="update_recipe">Update Recipe</string>
+    <string name="arrow_to_navigate_to_recipe_detail_layout">arrow to navigate to recipe detail layout</string>
+    <string name="category">Category</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="back_to_my_recipe">Back to My Recipe</string>
+    <string name="recipe_details">Recipe Details</string>
+    <string name="delete">Delete</string>
+    <string name="instructions_will_appear_here">Instructions will appear here</string>
+    <string name="_2_filters_active">2 filters active</string>
+    <string name="more_options">More options</string>
+    <string name="clear_all_filters">Clear All Filters</string>
+    <string name="sort_recipes">Sort Recipes</string>
+    <string name="filter_by_category">Filter by Category</string>
+    <string name="lunch">Lunch</string>
+    <string name="brunch">Brunch</string>
+    <string name="instructions_will_appear">Instructions will appear here</string>
 </resources>
