@@ -5,101 +5,126 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
-    <!-- App Bar Layout -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFC0C0"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:padding="16dp">
-
-        <ImageButton
-            android:id="@+id/btn_back"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:background="?android:attr/selectableItemBackgroundBorderless"
-            />
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_weight="1"
-            android:text="My Recipe"
-            android:gravity="start"
-            android:textColor="#FBF9F9"
-            android:textSize="34sp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            app:srcCompat="@drawable/filter_list_24px"
-            android:contentDescription="@string/filter" />
-
-    </LinearLayout>
-
-    <!-- Main Content -->
+    <!-- Main Content wrapped in LinearLayout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        android:orientation="vertical">
 
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_marginEnd="20dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="8dp"
-            app:srcCompat="@drawable/more_horiz_24px" />
-
-        <!-- Recipes RecyclerView -->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerViewRecipes"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:padding="8dp"
-            android:clipToPadding="false" />
-
-
-
-
-        <!-- Empty State Layout -->
+        <!-- App Bar Layout -->
         <LinearLayout
-            android:id="@+id/emptyStateLayout"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:padding="32dp"
-            android:visibility="gone">
+            android:layout_height="wrap_content"
+            android:background="#FFC0C0"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless" />
 
             <TextView
-                android:id="@+id/emptyStateTitle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="No recipes yet"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                android:textColor="#333333"
-                android:layout_marginBottom="8dp" />
-            <TextView
-                android:id="@+id/emptyStateMessage"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/tap_the_button_to_add_your_first_recipe"
-                android:textSize="20sp"
-                android:textColor="#666666"
-                android:gravity="center" />
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:text="My Recipe"
+                android:gravity="start"
+                android:textColor="#FBF9F9"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
 
         </LinearLayout>
+
+        <!-- Three dots menu section -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:paddingHorizontal="16dp"
+            android:paddingVertical="2dp">
+
+
+            <ImageButton
+                android:id="@+id/btn_more_options"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="top|end"
+                android:layout_margin="8dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/more_horiz_24px"
+                android:contentDescription="@string/more_options" />
+
+        </RelativeLayout>
+
+        <!-- Filter Indicator -->
+        <TextView
+            android:id="@+id/filter_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF5F5"
+            android:padding="8dp"
+            android:text="@string/_2_filters_active"
+            android:textColor="#FF6B6B"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+
+
+        <!-- Content area with RecyclerView and Empty State -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <!-- Recipes RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewRecipes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="8dp"
+                android:clipToPadding="false" />
+
+            <!-- Empty State Layout -->
+            <LinearLayout
+                android:id="@+id/emptyStateLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="32dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/emptyStateTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No recipes yet"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#333333"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/emptyStateMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tap_the_button_to_add_your_first_recipe"
+                    android:textSize="20sp"
+                    android:textColor="#666666"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
     </LinearLayout>
 
     <!-- Floating Action Button -->
@@ -109,6 +134,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
+        android:contentDescription="Add recipe"
         app:srcCompat="@drawable/add_circle_outline_pink" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
