@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_background"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FILTER BY CATEGORY"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:letterSpacing="0.1" />
+
+    <!-- Category Checkboxes -->
+    <CheckBox
+        android:id="@+id/checkbox_breakfast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        android:textSize="18sp"
+        android:textColor="@color/textPrimary"
+        android:buttonTint="@color/checkbox_tint_selector"
+        android:paddingVertical="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_brunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/brunch"
+        android:textSize="18sp"
+        android:textColor="@color/textPrimary"
+        android:buttonTint="@color/checkbox_tint_selector"
+        android:paddingVertical="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_lunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lunch"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:buttonTint="@color/checkbox_tint_selector"
+        android:paddingVertical="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_dinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dinner"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:buttonTint="@color/checkbox_tint_selector"
+        android:paddingVertical="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_dessert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dessert"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:buttonTint="@color/checkbox_tint_selector"
+        android:paddingVertical="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkbox_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:buttonTint="@color/checkbox_tint_selector"
+        android:paddingVertical="8dp" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_clear_all"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/filter_button_background"
+            android:text="Clear All"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_apply_filter"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/filter_button_background"
+            android:text="Apply"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
