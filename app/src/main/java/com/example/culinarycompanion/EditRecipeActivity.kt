@@ -1,4 +1,4 @@
-package com.example.recipecompanion
+package com.example.culinarycompanion
 
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -6,7 +6,7 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AlertDialog
-import com.example.recipecompanion.databinding.ActivityEditRecipeBinding
+import com.example.culinarycompanion.databinding.ActivityEditRecipeBinding
 
 class EditRecipeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityEditRecipeBinding
