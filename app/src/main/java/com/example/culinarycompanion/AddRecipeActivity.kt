@@ -1,11 +1,11 @@
-package com.example.recipecompanion
+package com.example.culinarycompanion
 
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.example.recipecompanion.databinding.ActivityAddRecipeBinding
+import com.example.culinarycompanion.databinding.ActivityAddRecipeBinding
 
 class AddRecipeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAddRecipeBinding
@@ -21,7 +21,7 @@ class AddRecipeActivity : AppCompatActivity() {
     }
 
     private fun setupSpinner() {
-        val categories = arrayOf("Breakfast", "Lunch", "Dinner", "Dessert", "Snack")
+        val categories = arrayOf("Breakfast", "Brunch", "Lunch", "Dinner", "Dessert", "Other")
         val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, categories)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         binding.spinnerCategory.adapter = adapter
