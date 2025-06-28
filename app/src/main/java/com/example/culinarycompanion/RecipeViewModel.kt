@@ -1,4 +1,4 @@
-package com.example.recipecompanion
+package com.example.culinarycompanion
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

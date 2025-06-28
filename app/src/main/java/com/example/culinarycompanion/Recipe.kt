@@ -1,4 +1,4 @@
-package com.example.recipecompanion
+package com.example.culinarycompanion
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

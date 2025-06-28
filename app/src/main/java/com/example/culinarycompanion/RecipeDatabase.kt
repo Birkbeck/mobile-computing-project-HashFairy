@@ -1,4 +1,4 @@
-package com.example.recipecompanion
+package com.example.culinarycompanion
 
 import android.content.Context
 import androidx.room.Database

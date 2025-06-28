@@ -1,4 +1,4 @@
-package com.example.recipecompanion
+package com.example.culinarycompanion
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
