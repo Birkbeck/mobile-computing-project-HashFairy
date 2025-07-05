@@ -122,7 +122,6 @@ class RecipeDatabaseTest {
 
     @Test
     fun getRecipesByCategory_returnsFilteredRecipes() = runBlocking {
-        // Arrange
         val lunchRecipe1 = Recipe(
             name = "Caesar Salad",
             category = "Lunch",
