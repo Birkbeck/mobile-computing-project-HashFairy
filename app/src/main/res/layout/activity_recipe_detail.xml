@@ -35,7 +35,7 @@
                 android:layout_weight="1"
                 android:text="@string/recipe_details"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -94,6 +94,7 @@
                 android:textColor="#000000"
                 android:textSize="15sp"
                 android:textStyle="bold" />
+
             <!-- For Ingredients Section -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
