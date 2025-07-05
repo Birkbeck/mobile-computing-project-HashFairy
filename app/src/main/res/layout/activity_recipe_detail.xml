@@ -25,7 +25,7 @@
                 android:layout_height="48dp"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
                 android:src="@drawable/arrow_back_24px"
-                android:contentDescription="Back to My Recipe"
+                android:contentDescription="@string/back_to_my_recipe"
                 app:tint="#FFFFFF" />
 
             <TextView
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_weight="1"
-                android:text="Recipe Details"
+                android:text="@string/recipe_details"
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -60,7 +60,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Recipe Name"
+                    android:text="@string/recipe_name"
                     android:textSize="28sp"
                     android:textStyle="bold"
                     android:textColor="#231F20"
@@ -71,7 +71,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/category_badge_background"
-                    android:text="Category"
+                    android:text="@string/category"
                     android:textSize="14sp"
                     android:textColor="#FFFFFF"
                     android:paddingHorizontal="20dp"
@@ -85,6 +85,15 @@
                 android:layout_height="1dp"
                 android:background="#EEEEEE"
                 android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/ingredientdetails"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
             <!-- For Ingredients Section -->
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -94,13 +103,15 @@
                 app:cardElevation="2dp"
                 app:cardBackgroundColor="#FFF5F5">
 
+
+
                 <TextView
                     android:id="@+id/text_ingredients"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:maxHeight="200dp"
                     android:padding="16dp"
-                    android:text="Ingredients will appear here"
+                    android:text="@string/ingredients_will_appear_here"
                     android:textSize="16sp"
                     android:textColor="#333333"
                     android:lineSpacingExtra="4dp"
@@ -109,6 +120,15 @@
                     android:fadeScrollbars="false" />
 
             </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/instructiondetails"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
             <!-- For Instructions Section -->
             <androidx.cardview.widget.CardView
@@ -150,7 +170,7 @@
                     android:layout_weight="1"
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/save_button_background"
-                    android:text="Edit"
+                    android:text="@string/edit"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
                     android:textSize="22sp"
