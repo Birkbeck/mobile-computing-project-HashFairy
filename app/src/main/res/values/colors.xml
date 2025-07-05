@@ -11,6 +11,7 @@
     <color name="textSecondary">#000000</color>
     <color name="SecondaryButton">#979797</color>
     <color name="PrimaryButton">#FFC0C0</color>
+    <color name="WelcomeButtonColor">#FF0000</color>
 
 
 
