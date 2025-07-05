@@ -79,8 +79,8 @@
     <string name="category">Category</string>
     <string name="edit">Edit</string>
     <string name="ingredients_will_appear_here">Ingredients will appear here</string>
-    <string name="instructiondetails">instructionDetails</string>
-    <string name="ingredientdetails">ingredientdetails</string>
+    <string name="instructiondetails">instructions</string>
+    <string name="ingredientdetails">ingredients</string>
     <string name="back_button">back button</string>
     <string name="my_recipe">My Recipe</string>
     <string name="no_recipes_yet">No recipes yet</string>
