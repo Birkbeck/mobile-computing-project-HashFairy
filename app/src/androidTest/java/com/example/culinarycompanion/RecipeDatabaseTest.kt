@@ -188,7 +188,6 @@ class RecipeDatabaseTest {
 
     @Test
     fun deleteRecipe_removesFromDatabase() = runBlocking {
-        // Arrange
         val recipe1 = Recipe(
             name = "Recipe 1",
             category = "Lunch",
