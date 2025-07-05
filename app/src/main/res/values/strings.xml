@@ -1,87 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- App Name -->
-    <string name="app_name">Recipe Companion</string>
+    <!-- ================================== -->
+    <!-- APP NAME                      -->
+    <!-- ================================== -->
+    <string name="app_name">Culinary Companion</string>
 
-    <!-- Welcome Screen -->
-    <string name="welcome_title">My Recipe Book</string>
-    <string name="welcome_subtitle">Organise and manage your\nfavourite recipes</string>
-    <string name="btn_get_started">GET STARTED</string>
-
-    <!-- Dashboard -->
-    <string name="my_recipes">My Recipes</string>
-    <string name="add_recipe">Add Recipe</string>
-
-    <!-- Categories -->
-    <string name="category_all">All</string>
-    <string name="category_breakfast">Breakfast</string>
-    <string name="category_brunch">Brunch</string>
-    <string name="category_lunch">Lunch</string>
-    <string name="category_dinner">Dinner</string>
-    <string name="category_desserts">Desserts</string>
-    <string name="category_other">Other</string>
-
-    <!-- Form Labels -->
-    <string name="recipe_title_hint">"Recipe Title "</string>
-    <string name="category_hint">Category *</string>
-    <string name="ingredients_hint">"Ingredients "</string>
-    <string name="instructions_hint">Instructions *</string>
-
-    <!-- Buttons -->
-    <string name="btn_save_recipe">SAVE RECIPE</string>
-    <string name="btn_update_recipe">UPDATE RECIPE</string>
-    <string name="btn_cancel">Cancel</string>
-    <string name="btn_delete">Delete</string>
-
-    <!-- Titles -->
-    <string name="add_new_recipe">Add New Recipe</string>
-    <string name="edit_recipe">Edit Recipe</string>
-
-    <!-- Content Descriptions -->
-    <string name="cd_app_logo">Culinary Companion Logo</string>
-    <string name="cd_menu">Menu</string>
-    <string name="cd_back">Back</string>
-    <string name="cd_recipe_image">Recipe Image</string>
-    <string name="cd_recipe_options">Recipe Options</string>
-    <string name="cd_delete_recipe">Delete Recipe</string>
-
+    <!-- ================================== -->
+    <!-- WELCOME SCREEN                     -->
+    <!-- ================================== -->
     <string name="my_recipe_book">My Recipe Book</string>
     <string name="organise_and_manage_your_nfavourite_recipes">Organise and manage your\nfavourite recipes</string>
     <string name="get_started">GET STARTED</string>
-    <string name="culinary_companion_logo">Culinary Companion Logo</string>
-    <string name="ingredients">Ingredients *</string>
-    <string name="ingredient">Ingredients *</string>
-    <string name="recipe_title">Recipe Title *</string>
-    <string name="Edit_foodRecipe">Edit Recipe</string>
-    <string name="cancel">Cancel</string>
-    <string name="tap_the_button_to_add_your_first_recipe">Tap the + button to add your first recipe</string>
-    <string name="filter" />
-    <string name="update_recipe">Update Recipe</string>
-    <string name="arrow_to_navigate_to_recipe_detail_layout">arrow to navigate to recipe detail layout</string>
-    <string name="recipe_name">Recipe Name</string>
-    <string name="back_to_my_recipe">Back to My Recipe</string>
-    <string name="recipe_details">Recipe Details</string>
-    <string name="delete">Delete</string>
-    <string name="instructions_will_appear_here">Instructions will appear here</string>
-    <string name="_2_filters_active">2 filters active</string>
-    <string name="more_options">More options</string>
-    <string name="clear_all_filters">Clear All Filters</string>
-    <string name="sort_recipes">Sort Recipes</string>
-    <string name="filter_by_category">Filter by Category</string>
-    <string name="lunch">Lunch</string>
-    <string name="brunch">Brunch</string>
-    <string name="instructions_will_appear">Instructions will appear here</string>
-    <string name="addrecipe">Add-recipe</string>
-    <string name="category_">Category *</string>
-    <string name="save_recipe_">Save Recipe</string>
-    <string name="instructions">Instructions *</string>
-    <string name="category">Category</string>
-    <string name="edit">Edit</string>
-    <string name="ingredients_will_appear_here">Ingredients will appear here</string>
-    <string name="instructiondetails">instructions</string>
-    <string name="ingredientdetails">ingredients</string>
-    <string name="back_button">back button</string>
+
+    <!-- ================================== -->
+    <!-- MAIN DASHBOARD                     -->
+    <!-- ================================== -->
     <string name="my_recipe">My Recipe</string>
+    <string name="addrecipe">Add-recipe</string>
+
+    <!-- ================================== -->
+    <!-- EMPTY STATES                       -->
+    <!-- ================================== -->
     <string name="no_recipes_yet">No recipes yet</string>
+    <string name="tap_the_button_to_add_your_first_recipe">Tap the + button to add your first recipe</string>
+
+    <!-- ================================== -->
+    <!-- RECIPE CATEGORIES                  -->
+    <!-- ================================== -->
+    <string name="category">Category</string>
+    <string name="category_">Category *</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="brunch">Brunch</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="dessert">Dessert</string>
+    <string name="category_other">Other</string>
+
+    <!-- ================================== -->
+    <!-- FORM LABELS & HINTS                -->
+    <!-- ================================== -->
+    <string name="recipe_title">Recipe Title *</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="ingredients">Ingredients *</string>
+    <string name="instructions">Instructions *</string>
+
+    <!-- ================================== -->
+    <!-- BUTTONS & ACTIONS                  -->
+    <!-- ================================== -->
+    <string name="save_recipe_">Save Recipe</string>
+    <string name="update_recipe">Update Recipe</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="clear_all">Clear All</string>
+    <string name="apply">Apply</string>
+
+    <!-- ================================== -->
+    <!-- SCREEN TITLES                      -->
+    <!-- ================================== -->
+    <string name="add_new_recipe">Add New Recipe</string>
+    <string name="Edit_foodRecipe">Edit Recipe</string>
+    <string name="recipe_details">Recipe Details</string>
+
+    <!-- ================================== -->
+    <!-- NAVIGATION                         -->
+    <!-- ================================== -->
+    <string name="back_to_my_recipe">Back to My Recipe</string>
+    <string name="more_options">More options</string>
+
+    <!-- ================================== -->
+    <!-- FILTERING & SORTING                -->
+    <!-- ================================== -->
+    <string name="filter_by_category">Filter by Category</string>
+    <string name="_2_filters_active">2 filters active</string>
+
+    <!-- ================================== -->
+    <!-- RECIPE DETAILS PLACEHOLDERS       -->
+    <!-- ================================== -->
+    <string name="ingredients_will_appear_here">Ingredients will appear here</string>
+    <string name="ingredientdetails">ingredients</string>
+    <string name="instructions_will_appear">Instructions will appear here</string>
+    <string name="instructiondetails">instructions</string>
+
+    <!-- ================================== -->
+    <!-- CONTENT DESCRIPTIONS               -->
+    <!-- ================================== -->
+    <string name="culinary_companion_logo">Culinary Companion Logo</string>
+    <string name="back_button">back button</string>
+    <string name="arrow_to_navigate_to_recipe_detail_layout">arrow to navigate to recipe detail layout</string>
+    <string name="clear_all_filters">clear all filters</string>
+    <string name="sort_recipes">sort recipes</string>
+
 </resources>
