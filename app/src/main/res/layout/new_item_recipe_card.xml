@@ -54,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/category_badge_background"
-                    android:text="@string/category"
+                    android:text="@string/category_"
                     android:textSize="12sp"
                     android:textColor="#FFFFFF"
                     android:paddingHorizontal="12dp"
