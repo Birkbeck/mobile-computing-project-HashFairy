@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/gradient_background">
 
     <!-- Main content container centered -->
@@ -32,7 +33,7 @@
             android:text="@string/my_recipe_book"
             android:textSize="32sp"
             android:textStyle="bold"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/buttonText"
             android:layout_marginBottom="12dp"
             android:gravity="center" />
 
@@ -43,7 +44,7 @@
             android:layout_height="wrap_content"
             android:text="@string/organise_and_manage_your_nfavourite_recipes"
             android:textSize="16sp"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/buttonText"
             android:layout_marginBottom="48dp"
             android:gravity="center"
             android:alpha="0.9" />
@@ -55,9 +56,10 @@
             android:layout_width="200dp"
             android:layout_height="56dp"
             android:background="@drawable/rounded_button_background"
+            app:backgroundTint="@null"
             android:elevation="4dp"
             android:text="@string/get_started"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/WelcomeButtonColor"
             android:textSize="20sp"
             android:gravity="center"
             android:textStyle="bold" />
