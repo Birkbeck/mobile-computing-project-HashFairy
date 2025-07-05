@@ -128,13 +128,15 @@
     </LinearLayout>
 
     <!-- Floating Action Button -->
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    <ImageView
         android:id="@+id/fabAddRecipe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
-        android:contentDescription="Add recipe"
-        app:srcCompat="@drawable/add_circle_outline_pink" />
+        android:src="@drawable/add_circle_24px"
+        android:contentDescription="@string/addrecipe"
+         />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
