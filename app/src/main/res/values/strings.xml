@@ -23,10 +23,10 @@
     <string name="category_other">Other</string>
 
     <!-- Form Labels -->
-    <string name="recipe_title_hint">Recipe Title *</string>
+    <string name="recipe_title_hint">"Recipe Title "</string>
     <string name="category_hint">Category *</string>
-    <string name="ingredients_hint">Ingredients</string>
-    <string name="instructions_hint">Instructions</string>
+    <string name="ingredients_hint">"Ingredients "</string>
+    <string name="instructions_hint">Instructions *</string>
 
     <!-- Buttons -->
     <string name="btn_save_recipe">SAVE RECIPE</string>
@@ -50,16 +50,15 @@
     <string name="organise_and_manage_your_nfavourite_recipes">Organise and manage your\nfavourite recipes</string>
     <string name="get_started">GET STARTED</string>
     <string name="culinary_companion_logo">Culinary Companion Logo</string>
-    <string name="ingredient">Ingredients</string>
-    <string name="ingredients">Ingredients</string>
-    <string name="recipe_title">Recipe Title*</string>
+    <string name="ingredients">Ingredients *</string>
+    <string name="ingredient">Ingredients *</string>
+    <string name="recipe_title">Recipe Title *</string>
     <string name="Edit_foodRecipe">Edit Recipe</string>
     <string name="cancel">Cancel</string>
     <string name="tap_the_button_to_add_your_first_recipe">Tap the + button to add your first recipe</string>
     <string name="filter" />
     <string name="update_recipe">Update Recipe</string>
     <string name="arrow_to_navigate_to_recipe_detail_layout">arrow to navigate to recipe detail layout</string>
-    <string name="category">Category</string>
     <string name="recipe_name">Recipe Name</string>
     <string name="back_to_my_recipe">Back to My Recipe</string>
     <string name="recipe_details">Recipe Details</string>
@@ -73,4 +72,13 @@
     <string name="lunch">Lunch</string>
     <string name="brunch">Brunch</string>
     <string name="instructions_will_appear">Instructions will appear here</string>
+    <string name="addrecipe">Add-recipe</string>
+    <string name="category_">Category *</string>
+    <string name="save_recipe_">Save Recipe</string>
+    <string name="instructions">Instructions *</string>
+    <string name="category">Category</string>
+    <string name="edit">Edit</string>
+    <string name="ingredients_will_appear_here">Ingredients will appear here</string>
+    <string name="instructiondetails">instructionDetails</string>
+    <string name="ingredientdetails">ingredientdetails</string>
 </resources>
